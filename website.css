@@ -1,0 +1,63 @@
+
+html {
+  background: url(https://pixabay.com/get/e836b60620fc013ed1584d05fb0938c9bd22ffd41cb0104197f8c57aa0/snow-on-berries-1379880_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.name {
+  font-size: 40px;
+}
+
+p.intro {
+  line-height: 30px;
+}
+
+.box {
+  width: 360px;
+	background-color: rgba(234, 239, 247, 0.9);
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+  color: black;
+}
+
+.me {
+     border-radius: 200px;
+     background-color: #DDD;
+     border: 5px solid #cfd8dc;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+
+.social-icons{
+  padding-top: 10px;
+	font-size: 40px;
+}
+
+.social-icons a{
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  border: 1px solid #8c1532;
+  opacity: 0.2;
+}
+
+a:hover {
+  color: rgb(140, 21, 50);
+  text-decoration: underline;
+}
