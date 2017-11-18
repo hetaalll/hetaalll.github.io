@@ -1,6 +1,6 @@
 
 html {
-  background: url(https://pixabay.com/get/e836b60620fc013ed1584d05fb0938c9bd22ffd41cb0104197f8c57aa0/snow-on-berries-1379880_1280.jpg) no-repeat center center fixed;
+  background: url("backimg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
