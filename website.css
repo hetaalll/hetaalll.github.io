@@ -1,49 +1,39 @@
 
-html {
-  background: url("backimg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.name {
-  font-size: 40px;
-}
-
-p.intro {
-  line-height: 30px;
-}
-
-.me {
-     border-radius: 200px;
-     background-color: #DDD;
-     border: 5px solid #cfd8dc;
+.row{
+  margin-top: 30px;
+  margin-bottom: 30px
 }
 
 img {
 	height: 200px;
-	width: 200px;
+	width: auto;
 }
 
-
-.social-icons{
-  padding-top: 10px;
-	font-size: 40px;
-}
-
-.social-icons a{
+.col-md-4 {
+  margin-left: 40px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
+}
+
+.col-md-7 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.jumbotron {
+  background-color: rgb(1, 82, 130) !important;
+  text-align: center;
+}
+
+.glyphicon, .fa-laptop {
+  color: rgb(1, 82, 130);
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-hr {
-  border: 1px solid #8c1532;
-  opacity: 0.2;
 }
 
 a:hover {
