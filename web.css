@@ -1,0 +1,42 @@
+
+
+.row{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+.col-md-4 {
+  margin-left: 40px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.col-md-7 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.jumbotron {
+  background-color: rgb(1, 82, 130) !important;
+  text-align: center;
+}
+
+.glyphicon, .fa-laptop {
+  color: rgb(1, 82, 130);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(140, 21, 50);
+  text-decoration: underline;
+}
