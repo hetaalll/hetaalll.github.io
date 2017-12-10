@@ -13,84 +13,229 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+
+    <style>
+      .parallax {
+        background-image: url("me.jpg");
+        height: 700px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+      }
+
+      .parallax2 {
+        background-image: url("me5.jpg");
+        height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    </style>
+
 </head>
 
 <body>
 
-<div class="row">
-  <div class="col-md-4">
-
-    <!--INTRO-->
-    <img class = "me" src = "Me1.jpg">
-    <p> <br> <span class="glyphicon glyphicon-user"></span> Hetal Patel </p>
-    <p><span class="glyphicon glyphicon-home"></span> Somerset, NJ </p>
-    <p> <span class="glyphicon glyphicon-envelope"></span> hetalp1698@gmail.com </p>
-    <p><span class="glyphicon glyphicon-earphone"></span> (732) 839-5913 </p>
-    <hr>
-
-    <!--SKILLS-->
-    <h3> <span class="glyphicon glyphicon-certificate"></span> Skills </h3>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="82"
-      aria-valuemin="0" aria-valuemax="100" style="width:85%">
-        HTML, CSS/Sass
+  <!--========NAVBAR=========-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
       </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Experience</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="75"
-      aria-valuemin="0" aria-valuemax="100" style="width:75%">
-        Java
-      </div>
+  </nav>
+  <!--=========END NAVBAR=======-->
+
+  <!--=======INTRO SLIDER=========-->
+  <br> <br>
+  <div id = "intro">
+  <div class="parallax">
+    <div class="row">
+      <div class="info col-md-4">
+        <h1 class="name"> <b> Hetal <br> Patel </b> </h1> <br>
+        <div class = "social-icons">
+          <a href ="https://www.linkedin.com/in/hetalp1698/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true" ></i> </a>
+          &emsp;<a href="https://github.com/hetaalll" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i></a>
+          &emsp;<a href="https://www.facebook.com/hetaalll" target="_blank"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
+        </div> <!--social icons-->
+      </div> <!--col-md-4-->
+    </div> <!--ROW-->
+  </div>
+</div> <!--id intro-->
+  <!--=====END INTRO SLIDER=====-->
+
+  <!--======ABOUT ME=====-->
+  <div id = "about">
+    <div class = "container">
+      <br>
+      <div class = "skill col-md-3">
+        <br>
+        <h3 class = "title-name"> About Me </h3>
+      </div> <!--col-md-3-->
+      <div class="col-sm-8 col-sm-offset-1"><br>
+        <p>I am currently a Sophomore at Rutgers University, New Brunswick, majoring in Computer Science with a minor in Mathematics
+        (Expected Graduation: 2020). </p>
+        <p>When I'm not in front of a computer screen, I'm probably
+        out in the nature, trying new cuisines or sleeping! </p>
+        <p>My goal is to build strong skills and gain experience and become a front-end web developer.</p> <hr>
+        <a  class="resume" href = "C:\Users\hetal\Code Repository\HTML CSS\portfolio\Resume.pdf" target ="_blank"> View my Resume&ensp;<span class="glyphicon glyphicon-folder-open"></span></a>
+      </div> <!--col-sm-8-->
+    </div> <!--container-->
+
+    <br>
+    <div class = "box">
+    <div class = "row">
+      <div class = "awards col-md-4"> <!--awards-->
+        <h3 class="col-title"> <i class="fa fa-trophy"></i> AWARDS</h3>
+        <p> Dean's List <br> National Society of Collegiate Scholars <br><br><br> </p>
+      </div> <!--col5-->
+
+      <div class = "languages col-md-4"> <!--Languages-->
+        <h3 class="col-title"> <span class="glyphicon glyphicon-globe"></span> LANGUAGES</h3>
+        <p> English <br> Hindi <br> Gujarati <br> <br></p>
+      </div> <!--col5-->
+    </div> <!--row-->
+  </div> <!--box-->
+  </div>
+  <!--=====END ABOUT ME=====-->
+
+  <!--==========EXPERIENCE AND PROJECTS==========-->
+  <br>
+  <div id = "work">
+    <div class="container">
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">Experience</h3>
+            </div>
+            <div class="timeline-body">
+              <p class = "tm"> <span class = "work-title"> Stop and Shop, Franklin Park | Cashier </span> <br>
+              <span class = "date2">  May 2017 – October 2017 </span> <br> <br>
+               <span class="glyphicon glyphicon-chevron-right"></span> Handled day-to-day transactions as a cashier, assist customers with locating items instore,
+                and answer customers’ questions <br>
+               <span class="glyphicon glyphicon-chevron-right"></span> Maintained clean and orderly checkout areas and complete other general duties </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-file"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">Projects</h3>
+            </div>
+            <div class="timeline-body">
+              <p class = "tm"> <span class = "work-title"> <a href = "https://github.com/hetaalll/Rutgers-CS211/tree/master/Computer%20Arithmetic" target= "_blank" class = "githublink"> Computer Arithmetic </a> | Rutgers </span> <br>
+                <span class = "date2">   Summer 2017 </span> <br> <br>
+              <span class="glyphicon glyphicon-chevron-right"></span> Created a calculator that deals with four different bases: Octal, Hexadecimal, Decimal and Binary. <br>
+              <span class="glyphicon glyphicon-chevron-right"></span> Deals with base conversions <br>
+              <span class="glyphicon glyphicon-chevron-right"></span> Does addition and subtraction in Binary </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div> <!--container-->
+  </div> <!--id work-->
+  <!--======END EXPERIENCE AND PROJECTS=========-->
+
+  <!--========SKILLS=========-->
+  <br>
+  <div id = "skills">
+  <div class = "parallax2">
+    <div class = "row">
+      <div class = "skill col-md-3">
+        <h3 class = "title-name name1" style = "color: white"> Skills </h3>
+      </div> <!--col-md-3-->
+      <div class ="col-sm-1"></div>
+      <div class="col-md-7">
+        <div class="progress-box"> <br><br><br><br>
+          <h5 class = "skill-languages">HTML</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+            </div>
+          </div>
+        </div><!--HTML-->
+        <div class="progress-box">
+          <h5 class = "skill-languages">CSS</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width:77%">
+            </div>
+          </div>
+        </div><!--CSS-->
+        <div class="progress-box">
+          <h5 class = "skill-languages">Java</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width:77%">
+            </div>
+          </div>
+        </div><!--Java-->
+        <div class="progress-box">
+          <h5 class = "skill-languages">JavaScript</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            </div>
+          </div>
+        </div><!--JavaScript  -->
+        <div class="progress-box">
+          <h5 class = "skill-languages">C</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            </div>
+          </div>
+        </div><!--C-->
+      </div> <!--col-sm-8-->
+    </div> <!--row-->
+  </div> <!--parallax-->
+  </div> <!--skills-->
+  <!--======== END SKILLS=========-->
+
+  <!--=====CONTACT========-->
+  <br>
+  <div id = "contact">
+    <div class="jumbotron">
+      <div class = "row">
+        <div class = "col-md-2"></div>
+        <div class = "col-md-4">
+          <h3 class="contact2"> FIND ME</h3> <br>
+          <p class = "social-icons2">
+            <a href ="https://www.linkedin.com/in/hetalp1698/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true" ></i> </a>
+            &ensp; <a href="https://github.com/hetaalll" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i></a>
+            &ensp; <a href="https://www.facebook.com/hetaalll" target="_blank"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
+            &ensp; <a href="https://www.instagram.com/hetaalll/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+          </p> <!--social icons-->
+        </div> <!--col-md-4-->
+        <div class = "col-md-4">
+          <h3 class="contact2">CONTACT INFO </h3> <br>
+          <p class = "contact-info">
+          <span class="glyphicon glyphicon-map-marker"></span>&emsp;&emsp;Somerset, NJ<br>
+          <span class="glyphicon glyphicon-envelope"></span>&emsp;&emsp;hetalp1698@gmail.com <br>
+          <span class="glyphicon glyphicon-earphone"></span>&emsp;&emsp;(732) 839-5913 </p>
+        </div> <!--col-md-4-->
+      </div> <!--row-->
     </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70"
-      aria-valuemin="0" aria-valuemax="100" style="width:70%">
-        C
-      </div>
-    </div>
-
-    <!--LANGUAGES-->
-    <h3> <span class="glyphicon glyphicon-globe"></span> Languages </h3>
-    <p><span class="glyphicon glyphicon-chevron-right"></span> English </p>
-    <p><span class="glyphicon glyphicon-chevron-right"></span> Hindi </p>
-    <p><span class="glyphicon glyphicon-chevron-right"></span> Gujarati </p>
-
-  </div> <!--col md 4 -->
-
-  <div class="col-md-7">
-
-    <h3> <span class="glyphicon glyphicon-pencil"></span> About Me </h3>
-    <p>I am currently a Sophomore at Rutgers University, New Brunswick, majoring in Computer Science with a minor in Mathematics
-    (Expected Graduation: 2020).
-    <br> When I'm not in front of a computer screen, I'm probably
-    out in the nature, trying new cuisines or sleeping! <br>
-    My goal is to build strong skills and gain experience and become a front-end web developer.</p>
-    <hr>
-
-    <h3> <span class="glyphicon glyphicon-briefcase"></span> Experience </h3>
-    <p> <span class = "info"> Stop and Shop, Franklin Park | Cashier </span> <br>
-    <span class = "date">  MAY 2017 – OCTOBER 2017 </span> <br>
-     > Handled day-to-day transactions as a cashier, assist customers with locating items instore,
-      and answer customers’ questions <br>
-      > Maintained clean and orderly checkout areas and complete other general duties </p>
-    <hr>
-
-    <h3> <i class="fa fa-laptop"></i> Projects </h3>
-    <p><span class = "info"> Computer Arithmetic (Summer 2017) </span> <br>
- > Created a calculator that deals with four different bases: Octal, Hexadecimal, Decimal and Binary. <br>
- > Deals with base conversions <br>
- > Does addition and subtraction in Binary </p>
-
-  </div> <!--col md 8-->
-
-  </div> <!--ROW-->
-
-<div class="jumbotron">
-  <p> Hetal Patel </p>
-  <a href ="https://www.linkedin.com/in/hetalp1698/" target="_blank"> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style ="color:black"></i> </a>
-  <a href="https://github.com/hetaalll" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" style ="color:black"></i></a>
-  <a href="Resume.pdf" target="_blank"><i class="fa fa-file-text fa-2x" aria-hidden="true" style ="color:black"></i></a>
-</div>
+  </div>
+  <!--=====END CONTACT======-->
 
 </body>
 
