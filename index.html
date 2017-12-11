@@ -11,6 +11,10 @@
     <link href = "website.css" type = "text/css" rel = "stylesheet">
     <link rel="shortcut icon" href="icon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--FONTS-->
@@ -50,24 +54,34 @@
 <body>
 
   <!--========NAVBAR=========-->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Experience</a></li>
-        <li><a href="#work">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div> <!--collapse-->
+    </div> <!--container-->
+  </div> <!--navber-->
+
   <!--=========END NAVBAR=======-->
 
   <!--=======INTRO SLIDER=========-->
-  <br> <br>
+  <br><br>
   <div id = "intro">
   <div class="parallax">
     <div class="row">

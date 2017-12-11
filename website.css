@@ -292,3 +292,9 @@ padding-left:90px;
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+@media (max-width: 1200px) {
+  .name {
+    font-size: 35px;
+  }
+}
