@@ -43,7 +43,6 @@ p {
 .social-icons a{
   transition: all 0.7s ease;
   color: black;
-  font-size: 15px;
   padding-left: 20px;
   font-size: 37px;
 }
@@ -296,5 +295,24 @@ padding-left:90px;
 @media (max-width: 1200px) {
   .name {
     font-size: 35px;
+  }
+
+  .info {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .social-icons a{
+    padding-left: 5px;
+    font-size: 20px;
+  }
+
+  .name1 {
+    line-height: 30%;
+  }
+
+  .languages, .awards {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
