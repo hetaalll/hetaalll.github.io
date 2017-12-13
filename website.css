@@ -341,11 +341,15 @@ padding-left:90px;
   }
 
   .col-md-7 {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
   }
 
   .parallax {
-    width: auto;
+    background-image: url("me1.jpg");
+  }
+
+  .parallax2 {
+    background-image: url("me2.jpg");
   }
 }
