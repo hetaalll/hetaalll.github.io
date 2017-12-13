@@ -294,7 +294,7 @@ padding-left:90px;
 
 @media (max-width: 800px) {
   .name {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .info {
@@ -304,7 +304,7 @@ padding-left:90px;
 
   .social-icons a{
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .name1 {
@@ -318,5 +318,10 @@ padding-left:90px;
 
   .contact2, .social-icons2, .contact-info {
     margin-left: 25px;
+  }
+
+  .col-md-7 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
