@@ -345,22 +345,4 @@ padding-left:90px;
     margin-right: 10px;
   }
 
-  .parallax {
-    background-image: url("me1.jpg");
-    height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-  }
-
-  .parallax2 {
-    background-image: url("me2.jpg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 }
