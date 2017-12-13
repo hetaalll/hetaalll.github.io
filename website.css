@@ -1,3 +1,23 @@
+.parallax {
+  background-image: url("me.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.parallax2 {
+  background-image: url("me5.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .languages, .awards {
   margin-left: 140px;
   margin-bottom: 50px;
@@ -323,5 +343,9 @@ padding-left:90px;
   .col-md-7 {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .parallax {
+    width: auto;
   }
 }
