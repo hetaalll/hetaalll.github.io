@@ -1,11 +1,21 @@
-.promo-block{
+.parallax {
+  background-image: url("me.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
-  }
+}
+
+.parallax2 {
+  background-image: url("me5.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .languages, .awards {
@@ -53,7 +63,6 @@ p {
 .social-icons a{
   transition: all 0.7s ease;
   color: black;
-  font-size: 15px;
   padding-left: 20px;
   font-size: 37px;
 }
@@ -125,7 +134,7 @@ p {
 }
 
 .progress-box .progress-bar {
-  background: #022ddb !important
+  background: #d60e0e !important
 }
 
 h5.skill-languages {
@@ -171,7 +180,6 @@ h5.skill-languages {
 .tm {
   font-size: 15px;
 }
-
 
 .timeline {
   list-style: none;
@@ -302,4 +310,39 @@ padding-left:90px;
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .name {
+    font-size: 50px;
+  }
+
+  .info {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .social-icons a{
+    padding-left: 5px;
+    font-size: 28px;
+  }
+
+  .name1 {
+    line-height: 140%;
+  }
+
+  .languages, .awards {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .contact2, .social-icons2, .contact-info {
+    margin-left: 25px;
+  }
+
+  .col-md-7 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 }

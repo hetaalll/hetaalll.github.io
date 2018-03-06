@@ -9,14 +9,13 @@
   <title> Hetal Patel </title>
 
     <link href = "website.css" type = "text/css" rel = "stylesheet">
-    <link rel="shortcut icon" href="C:\Users\hetal\Code Repository\HTML CSS\website\icon.ico" />
+    <link rel="shortcut icon" href="icon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="parallax/jquery.min.js" type="text/javascript"></script>
-    <script src="parallax/jquery.parallax.min.js" type="text/javascript"></script>
-
-
 
     <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
@@ -27,54 +26,41 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
-
-    <style>
-      .parallax {
-        background-image: url("me.jpg");
-        height: 700px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.9;
-      }
-
-      .parallax2 {
-        background-image: url("me5.jpg");
-        height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-    </style>
-
 </head>
 
 <body>
 
   <!--========NAVBAR=========-->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Experience</a></li>
-        <li><a href="#work">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div> <!--collapse-->
+    </div> <!--container-->
+  </div> <!--navber-->
+
   <!--=========END NAVBAR=======-->
 
   <!--=======INTRO SLIDER=========-->
-  <br> <br>
+  <br><br>
   <div id = "intro">
-    <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="me.jpg">
+  <div class="parallax">
     <div class="row">
       <div class="info col-md-4">
         <h1 class="name"> <b> Hetal <br> Patel </b> </h1> <br>
@@ -103,7 +89,7 @@
         <p>When I'm not in front of a computer screen, I'm probably
         out in the nature, trying new cuisines or sleeping! </p>
         <p>My goal is to build strong skills and gain experience and become a front-end web developer.</p> <hr>
-        <a  class="resume" href = "C:\Users\hetal\Code Repository\HTML CSS\portfolio\Resume.pdf" target ="_blank"> View my Resume&ensp;<span class="glyphicon glyphicon-folder-open"></span></a>
+        <a  class="resume" href = "Resume.pdf" target ="_blank"> View my Resume&ensp;<span class="glyphicon glyphicon-folder-open"></span></a>
       </div> <!--col-sm-8-->
     </div> <!--container-->
 
@@ -195,13 +181,6 @@
             </div>
           </div>
         </div><!--Java-->
-        <div class="progress-box">
-          <h5 class = "skill-languages">JavaScript</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-            </div>
-          </div>
-        </div><!--JavaScript  -->
         <div class="progress-box">
           <h5 class = "skill-languages">C</h5>
           <div class="progress">
