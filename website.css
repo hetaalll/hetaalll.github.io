@@ -348,7 +348,7 @@ padding-left:90px;
 }
 
 
-@@media (max-width: 500px) {
+@media (max-width: 500px) {
   .parallax, .parallax2 {
     width: 450px;
   }
