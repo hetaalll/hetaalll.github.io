@@ -345,9 +345,11 @@ padding-left:90px;
     margin-right: 10px;
   }
 
+}
+
+
+@@media (max-width: 500px) {
   .parallax, .parallax2 {
     width: 450px;
-    height: auto;
   }
-
 }
