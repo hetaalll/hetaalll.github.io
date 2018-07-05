@@ -17,6 +17,20 @@
   background-size: cover;
 }
 
+.section {
+	position: relative;
+}
+
+.anchor {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	z-index: -1;
+	top: -55px;
+	left: 0;
+	visibility: hidden;
+}
 
 .languages, .awards {
   margin-left: 140px;
