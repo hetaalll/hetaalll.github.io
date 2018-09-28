@@ -128,6 +128,13 @@ p {
   padding: 10px 10px;
 }
 
+.glyphicon-menu-right {
+	font-size: 60%;
+}
+
+.glyphicon-folder-open {
+	font-size: 80%;
+}
 
 .info {
   margin-left: 130px;
@@ -207,7 +214,7 @@ h5.skill-languages {
 	content: '';
 	position: absolute;
 	width: 6px;
-	background: linear-gradient(to bottom, #474e5d 70%, white);
+	background: linear-gradient(to bottom, #474e5d 85%, white);
 	top: 0;
 	bottom: 0;
 	left: 50%;
@@ -285,6 +292,10 @@ h5.skill-languages {
 	border: solid #474e5d;
 }
 
+.content:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 	/* Place the timelime to the left */
@@ -333,7 +344,7 @@ h5.skill-languages {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 990px) {
   .name {
     font-size: 50px;
   }
